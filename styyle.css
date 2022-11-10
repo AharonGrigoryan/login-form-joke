@@ -1,0 +1,134 @@
+ * {
+   box-sizing: border-box;
+ }
+
+
+
+ body {
+   background-image: url("./img/layered-peaks-haikei.svg");
+   background-repeat: no-repeat;
+   border-style: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+ }
+
+ @media(width>=500px){
+  body {padding:0;}
+ }
+
+ .form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+ }
+
+ @media (width>=700px){
+  .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 600px;
+    height: 550px;
+    background: #F6F6C9;
+    border-radius: 30px;
+    
+  }
+ }
+
+ i {
+   font-size: 7.5em;
+   color: #142F43;
+
+   border: 5px solid transparent;
+ }
+
+
+ button {
+
+   width: 120px;
+   height: 50px;
+   font-size: 1.2em;
+
+   font-weight: 600;
+   border-radius: 30px;
+   border: 2px solid #F8CB2E;
+   outline: none;
+   cursor: pointer;
+   box-shadow: 0 5px 4px #333333;
+   margin-top: 15px;
+ }
+
+ .login {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 600px;
+ }
+
+ .icon.active {
+   display: none;
+ }
+
+ .icon-user.active {
+   display: none;
+ }
+
+ input:focus {
+   outline: none;
+   background-color: #BAD1C2;
+ }
+
+ input {
+   width: 100%;
+   padding: 20px;
+   border: 1px solid #252525;
+   font-size: 20px;
+   color: #333333;
+   border-radius: 30px;
+ }
+
+ .password {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .password input {
+   margin: 5px;
+ }
+
+ .div-icon i {
+   margin-left: -70px;
+   font-size: 1.5em;
+   cursor: pointer;
+ }
+
+ .username input:required:valid {
+   border: 1px solid green;
+ }
+
+ p {
+   margin: 20px 0px;
+ }
+
+ .link {
+   font-weight: 800;
+ }
+
+ .div-icons {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .div-icons i {
+   margin: 15px;
+   font-size: 3em;
+   cursor: pointer;
+ }
